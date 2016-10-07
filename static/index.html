@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script type="text/css" src="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css"></script>
+</head>
+	<body ng-app="App">
+	HELLO WORLD <br>
+		<input type="date"/>
+
+		<br>
+		<br>
+
+		<div ng-controller="AppController">
+        	<input ng-model="date" type="text" placeholder="mm/dd/yyyy" datepicker />
+        	{{date}}
+    	</div>
+
+    	<script src="App.js"></script>
+	</body>
+</html>
+
+

@@ -1,0 +1,25 @@
+{
+  "name": "@tobius/static-starter-kit",
+  "version": "0.2.0",
+  "description": "Static web page starter kit (easy to deploy to Heroku)",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "open": "0.0.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobius/static-starter-kit.git"
+  },
+  "author": "Toby Miller <tobius.miller@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobius/static-starter-kit/issues"
+  },
+  "homepage": "https://github.com/tobius/static-starter-kit#readme"
+}
